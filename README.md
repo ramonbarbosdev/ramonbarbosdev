@@ -1,8 +1,8 @@
 # Olá, eu sou Ramon.
 
-Product Engineer 
-Focado em aplicações com IA, arquitetura escalável e UX de alto nível  
-Brasil  
+- Product Engineer 
+- Focado em aplicações com IA, arquitetura escalável e UX de alto nível  
+- Brasil  
 
 ---
 
