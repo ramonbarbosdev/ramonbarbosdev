@@ -22,31 +22,7 @@ Atualmente, estou desenvolvendo projetos voltados para **assistentes inteligente
 
 ## Stack principal
 
-### Frontend
-- Angular (standalone + Signals)
-- Tailwind CSS
-- PrimeNG
-- UI moderna (dark mode, gradients, microinterações)
-
-### Backend
-- Java (Spring Boot)
-- Spring AI (ChatMemory, integração com LLMs)
-- APIs REST escaláveis
-- Arquitetura multi-tenant
-
-### Mobile
-- React Native (Expo)
-- Expo Router
-
-### Banco de Dados
-- PostgreSQL
-- MongoDB
-
-### DevOps & Ferramentas
-- Docker
-- Nginx
-- GitHub Actions (CI/CD)
-- Cloudflare
+![Stack](https://skillicons.dev/icons?i=angular,ts,tailwind,java,spring,react,postgres,mongodb,docker,nginx,github&perline=6)
 
 ---
 
