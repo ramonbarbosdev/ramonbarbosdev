@@ -22,8 +22,7 @@ Atualmente, estou desenvolvendo projetos voltados para **assistentes inteligente
 
 ## Stack principal
 
-![Stack](https://skillicons.dev/icons?i=angular,ts,tailwind,java,spring,react,postgres,mongodb,docker,nginx,github&perline=6)
-
+![Stack](https://skillicons.dev/icons?i=angular,ts,tailwind,java,spring,react,php,postgres,mongodb,docker,nginx,github&perline=6)
 ---
 
 ## Especialidades
@@ -36,9 +35,9 @@ Atualmente, estou desenvolvendo projetos voltados para **assistentes inteligente
   
 ---
 
-## GitHub Stats
+## Linguagens mais usadas
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ramonbarbosdev&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramonbarbosdev&layout=compact&theme=dark&langs_count=6&hide=html,css)
 
 ---
 
