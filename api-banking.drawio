@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="fwG7wfNVB1FAFnNIk7MQ">
-    <mxGraphModel dx="817" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2946" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="H30XR-bTsbJPFc7FLLuc-78" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Fluxo até o credenciamento" vertex="1">
-          <mxGeometry height="1060" width="510" x="986" y="130" as="geometry" />
+          <mxGeometry height="1060" width="510" x="1820" y="140" as="geometry" />
         </mxCell>
         <mxCell id="H30XR-bTsbJPFc7FLLuc-112" edge="1" parent="H30XR-bTsbJPFc7FLLuc-78" source="H30XR-bTsbJPFc7FLLuc-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="H30XR-bTsbJPFc7FLLuc-107">
           <mxGeometry relative="1" as="geometry" />
@@ -267,7 +267,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-89" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Configuração de Ambiente" vertex="1">
-          <mxGeometry height="830" width="790" x="1673" y="130" as="geometry" />
+          <mxGeometry height="830" width="790" x="960" y="130" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-90" parent="yyPlP2I08CKxvCgFY6op-89" style="swimlane;whiteSpace=wrap;html=1;" value="Externo - Instituição Financeira" vertex="1">
           <mxGeometry height="520" width="250" x="67" y="70" as="geometry" />
@@ -353,7 +353,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-146" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Acesso" vertex="1">
-          <mxGeometry height="750" width="730" x="1703" y="1245" as="geometry" />
+          <mxGeometry height="750" width="730" x="960" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-155" parent="yyPlP2I08CKxvCgFY6op-146" style="swimlane;whiteSpace=wrap;html=1;" value="Painel Super Admin" vertex="1">
           <mxGeometry height="500" width="278" x="62" y="70" as="geometry" />
