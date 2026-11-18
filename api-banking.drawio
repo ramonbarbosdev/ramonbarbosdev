@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="fwG7wfNVB1FAFnNIk7MQ">
-    <mxGraphModel dx="1704" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="817" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,6 +351,88 @@
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-105" edge="1" parent="yyPlP2I08CKxvCgFY6op-89" source="yyPlP2I08CKxvCgFY6op-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-97">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-146" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Acesso" vertex="1">
+          <mxGeometry height="750" width="730" x="1703" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-155" parent="yyPlP2I08CKxvCgFY6op-146" style="swimlane;whiteSpace=wrap;html=1;" value="Painel Super Admin" vertex="1">
+          <mxGeometry height="500" width="278" x="62" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-147" parent="yyPlP2I08CKxvCgFY6op-155" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Instituições Financeiras&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="30" y="60" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-149" parent="yyPlP2I08CKxvCgFY6op-147" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Caixa Economica Federal" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-150" parent="yyPlP2I08CKxvCgFY6op-147" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Banco do Brasil" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-154" parent="yyPlP2I08CKxvCgFY6op-147" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Bradesco" vertex="1">
+          <mxGeometry height="30" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-161" parent="yyPlP2I08CKxvCgFY6op-155" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Aplicações Bancarias&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="30" y="210" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-162" parent="yyPlP2I08CKxvCgFY6op-161" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Aplicação Caixa - Seven" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-163" parent="yyPlP2I08CKxvCgFY6op-161" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Aplicação BB - Seven" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-165" parent="yyPlP2I08CKxvCgFY6op-155" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Produto Disponiveis&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="150" width="220" x="30" y="330" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-166" parent="yyPlP2I08CKxvCgFY6op-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Extrato" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-167" parent="yyPlP2I08CKxvCgFY6op-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Saldo" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-168" parent="yyPlP2I08CKxvCgFY6op-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Pix" vertex="1">
+          <mxGeometry height="30" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-169" parent="yyPlP2I08CKxvCgFY6op-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Pagamentos" vertex="1">
+          <mxGeometry height="30" width="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-170" parent="yyPlP2I08CKxvCgFY6op-146" style="swimlane;whiteSpace=wrap;html=1;" value="Organização (A,B,C)" vertex="1">
+          <mxGeometry height="500" width="278" x="387" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-171" parent="yyPlP2I08CKxvCgFY6op-170" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Instituição disponiveis&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="30" y="60" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-173" parent="yyPlP2I08CKxvCgFY6op-171" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Banco do Brasil" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-178" parent="yyPlP2I08CKxvCgFY6op-170" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Açoes da organização&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="150" width="220" x="29" y="165" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-179" parent="yyPlP2I08CKxvCgFY6op-178" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Solicitar utilização do BB" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-180" parent="yyPlP2I08CKxvCgFY6op-178" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Informar os ados da conta" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-181" parent="yyPlP2I08CKxvCgFY6op-178" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Realizar autorização pelo banco" vertex="1">
+          <mxGeometry height="30" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-182" parent="yyPlP2I08CKxvCgFY6op-178" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Aguardar habilitação" vertex="1">
+          <mxGeometry height="30" width="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-183" parent="yyPlP2I08CKxvCgFY6op-146" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="O cadastro de instituições, aplicações, credenciais e produtos no contexto global da API Bancária" vertex="1">
+          <mxGeometry height="60" width="273" x="62" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-207" parent="yyPlP2I08CKxvCgFY6op-146" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Autorizações e credenciamentos devem estar vinculados à organização correspondente." vertex="1">
+          <mxGeometry height="45" width="273" x="389.5" y="575" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
