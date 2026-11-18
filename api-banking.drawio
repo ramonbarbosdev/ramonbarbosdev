@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="fwG7wfNVB1FAFnNIk7MQ">
-    <mxGraphModel dx="2281" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,6 +264,92 @@
           <mxGeometry height="40" width="100" x="296" y="510" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-88" edge="1" parent="yyPlP2I08CKxvCgFY6op-1" source="yyPlP2I08CKxvCgFY6op-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-89" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Configuração de Ambiente" vertex="1">
+          <mxGeometry height="830" width="790" x="1673" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-90" parent="yyPlP2I08CKxvCgFY6op-89" style="swimlane;whiteSpace=wrap;html=1;" value="Externo - Instituição Financeira" vertex="1">
+          <mxGeometry height="520" width="250" x="67" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-98" edge="1" parent="yyPlP2I08CKxvCgFY6op-90" source="yyPlP2I08CKxvCgFY6op-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-92" parent="yyPlP2I08CKxvCgFY6op-90" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Portal developers (Caixa, BB..)" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-99" edge="1" parent="yyPlP2I08CKxvCgFY6op-90" source="yyPlP2I08CKxvCgFY6op-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-93" parent="yyPlP2I08CKxvCgFY6op-90" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Cadastrar&amp;nbsp;&lt;strong&gt;Aplicação&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-100" edge="1" parent="yyPlP2I08CKxvCgFY6op-90" source="yyPlP2I08CKxvCgFY6op-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-94" parent="yyPlP2I08CKxvCgFY6op-90" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Solicitar acesso as APIs&lt;br&gt;(ex:&amp;nbsp;Extrato e Saldo)" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-101" edge="1" parent="yyPlP2I08CKxvCgFY6op-90" source="yyPlP2I08CKxvCgFY6op-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-95" parent="yyPlP2I08CKxvCgFY6op-90" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Instituição analisa -Homologação da aplicação" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-96" parent="yyPlP2I08CKxvCgFY6op-90" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Credenciais e certificados para integração" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-91" parent="yyPlP2I08CKxvCgFY6op-89" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Interno - Super Admin" vertex="1">
+          <mxGeometry height="690" width="243" x="497" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-107" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-102" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Portal developers (Caixa, BB..)" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-108" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-103" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Cadastrar Instituição Financeira" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-130" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-104" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Cadastrar Aplicação Bancária" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-143" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-129" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Configurar credenciais ecertificados" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-144" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-131" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Vincular produtos bancários" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-145" edge="1" parent="yyPlP2I08CKxvCgFY6op-91" source="yyPlP2I08CKxvCgFY6op-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-141" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Homologar integração" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-142" parent="yyPlP2I08CKxvCgFY6op-91" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Disponibilizar aplicação" vertex="1">
+          <mxGeometry height="60" width="120" x="61.5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-106" edge="1" parent="yyPlP2I08CKxvCgFY6op-89" source="yyPlP2I08CKxvCgFY6op-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-97" parent="yyPlP2I08CKxvCgFY6op-89" style="rounded=0;whiteSpace=wrap;html=1;" value="Dados e configuração obtidos" vertex="1">
+          <mxGeometry height="40" width="120" x="347" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-105" edge="1" parent="yyPlP2I08CKxvCgFY6op-89" source="yyPlP2I08CKxvCgFY6op-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="yyPlP2I08CKxvCgFY6op-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
