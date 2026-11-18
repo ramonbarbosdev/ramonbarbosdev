@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="fwG7wfNVB1FAFnNIk7MQ">
-    <mxGraphModel dx="2438" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,6 +510,128 @@
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-244" parent="yyPlP2I08CKxvCgFY6op-210" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;Inicia processo de autorização junto à Caixa&lt;/div&gt;&lt;h3&gt;&lt;/h3&gt;" vertex="1">
           <mxGeometry height="40" width="140" x="180" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-259" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="5 Credenciamento - certificado" vertex="1">
+          <mxGeometry height="760" width="840" x="2410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-260" parent="yyPlP2I08CKxvCgFY6op-259" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Primerio Fluxo&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="210" width="300" x="40" y="60" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-261" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="A &lt;b&gt;Empresa A &lt;/b&gt;solicita a integração com a Instituição." vertex="1">
+          <mxGeometry height="30" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-262" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="O Sistema solicita o certificado digital exigido pelo banco." vertex="1">
+          <mxGeometry height="30" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-263" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="A &lt;b&gt;empresa &lt;/b&gt;disponibiliza seu certificado." vertex="1">
+          <mxGeometry height="30" width="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-264" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="O &lt;b&gt;Sistema &lt;/b&gt;valida o certificado." vertex="1">
+          <mxGeometry height="30" width="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-266" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="A &lt;b&gt;Instituição &lt;/b&gt;verifica a identidade e a autorização conforme seu processo." vertex="1">
+          <mxGeometry height="30" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-265" parent="yyPlP2I08CKxvCgFY6op-260" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="A integração é habilitada." vertex="1">
+          <mxGeometry height="30" width="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-286" parent="yyPlP2I08CKxvCgFY6op-259" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Tela de Credenciamento bancario - Organização&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="150" width="300" x="40" y="310" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-287" parent="yyPlP2I08CKxvCgFY6op-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Organização&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="30" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-288" parent="yyPlP2I08CKxvCgFY6op-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Instituição&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="30" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-289" parent="yyPlP2I08CKxvCgFY6op-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Upload do Arquivo do certificado&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="30" width="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-290" parent="yyPlP2I08CKxvCgFY6op-286" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Senha do certificado" vertex="1">
+          <mxGeometry height="30" width="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-293" parent="yyPlP2I08CKxvCgFY6op-259" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Pontos de segurança&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="210" width="300" x="470" y="60" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-294" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Criptografar o certificado e sua chave privada." vertex="1">
+          <mxGeometry height="30" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-295" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Proteger a senha separadamente." vertex="1">
+          <mxGeometry height="30" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-296" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Controlar acesso por organização.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-297" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Registrar auditoria de utilização." vertex="1">
+          <mxGeometry height="30" width="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-298" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Controlar vencimento e renovação." vertex="1">
+          <mxGeometry height="30" width="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-299" parent="yyPlP2I08CKxvCgFY6op-293" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Nunca devolver o certificado ou a chave privada em consultas da API." vertex="1">
+          <mxGeometry height="30" width="300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-306" parent="yyPlP2I08CKxvCgFY6op-259" style="shape=table;tableRender=collapsed;startSize=20;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" value="Existem dois usos diferentes de certificado:" vertex="1">
+          <mxGeometry height="170" width="730" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-307" parent="yyPlP2I08CKxvCgFY6op-306" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;align=left;" value="" vertex="1">
+          <mxGeometry height="30" width="730" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-308" parent="yyPlP2I08CKxvCgFY6op-307" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;fontStyle=1;align=left;" value="Uso" vertex="1">
+          <mxGeometry height="30" width="515" as="geometry">
+            <mxRectangle height="30" width="515" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-309" parent="yyPlP2I08CKxvCgFY6op-307" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;fontStyle=1" value="Responsável" vertex="1">
+          <mxGeometry height="30" width="215" x="515" as="geometry">
+            <mxRectangle height="30" width="215" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-310" parent="yyPlP2I08CKxvCgFY6op-306" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="60" width="730" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-311" parent="yyPlP2I08CKxvCgFY6op-310" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;overflow=hidden;strokeColor=inherit;fontSize=16;align=left;" value="Certificado da aplicação para comunicação com a Caixa" vertex="1">
+          <mxGeometry height="60" width="515" as="geometry">
+            <mxRectangle height="60" width="515" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-312" parent="yyPlP2I08CKxvCgFY6op-310" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="215" x="515" as="geometry">
+            <mxRectangle height="60" width="215" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-316" parent="yyPlP2I08CKxvCgFY6op-306" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1">
+          <mxGeometry height="60" width="730" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-317" parent="yyPlP2I08CKxvCgFY6op-316" style="shape=partialRectangle;html=1;connectable=0;fillColor=none;overflow=hidden;strokeColor=inherit;fontSize=16;align=left;" value="Certificado da organização para identificação/credenciamento" vertex="1">
+          <mxGeometry height="60" width="515" as="geometry">
+            <mxRectangle height="60" width="515" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-318" parent="yyPlP2I08CKxvCgFY6op-316" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" value="Organização" vertex="1">
+          <mxGeometry height="60" width="215" x="515" as="geometry">
+            <mxRectangle height="60" width="215" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-267" parent="yyPlP2I08CKxvCgFY6op-259" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Tipos de certificados&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="120" width="300" x="470" y="310" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-268" parent="yyPlP2I08CKxvCgFY6op-267" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="e-CNPJ A1" vertex="1">
+          <mxGeometry height="30" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-269" parent="yyPlP2I08CKxvCgFY6op-267" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="e-CNPJ A3" vertex="1">
+          <mxGeometry height="30" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-270" parent="yyPlP2I08CKxvCgFY6op-267" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Certificado mTLS" vertex="1">
+          <mxGeometry height="30" width="300" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
