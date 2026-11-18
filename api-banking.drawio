@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="fwG7wfNVB1FAFnNIk7MQ">
-    <mxGraphModel dx="817" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,7 +401,7 @@
           <mxGeometry height="30" width="220" y="120" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-170" parent="yyPlP2I08CKxvCgFY6op-146" style="swimlane;whiteSpace=wrap;html=1;" value="Organização (A,B,C)" vertex="1">
-          <mxGeometry height="500" width="278" x="387" y="70" as="geometry" />
+          <mxGeometry height="590" width="278" x="387" y="70" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-171" parent="yyPlP2I08CKxvCgFY6op-170" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Instituição disponiveis&lt;/strong&gt;" vertex="1">
           <mxGeometry height="60" width="220" x="30" y="60" as="geometry">
@@ -428,11 +428,34 @@
         <mxCell id="yyPlP2I08CKxvCgFY6op-182" parent="yyPlP2I08CKxvCgFY6op-178" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Aguardar habilitação" vertex="1">
           <mxGeometry height="30" width="220" y="120" as="geometry" />
         </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-251" parent="yyPlP2I08CKxvCgFY6op-170" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;strong&gt;API Banking&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="210" width="220" x="29" y="330" as="geometry">
+            <mxRectangle height="30" width="180" x="3010" y="330" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-252" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Organização solicitante" vertex="1">
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-253" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Instituição financeira escolhida" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-254" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Aplicação bancaria que será utilizada" vertex="1">
+          <mxGeometry height="30" width="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-255" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Produtos solicitados." vertex="1">
+          <mxGeometry height="30" width="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-256" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Dados da conta" vertex="1">
+          <mxGeometry height="30" width="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yyPlP2I08CKxvCgFY6op-257" parent="yyPlP2I08CKxvCgFY6op-251" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Situação do credenciamento" vertex="1">
+          <mxGeometry height="30" width="220" y="180" as="geometry" />
+        </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-183" parent="yyPlP2I08CKxvCgFY6op-146" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="O cadastro de instituições, aplicações, credenciais e produtos no contexto global da API Bancária" vertex="1">
           <mxGeometry height="60" width="273" x="62" y="575" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-207" parent="yyPlP2I08CKxvCgFY6op-146" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Autorizações e credenciamentos devem estar vinculados à organização correspondente." vertex="1">
-          <mxGeometry height="45" width="273" x="389.5" y="575" as="geometry" />
+          <mxGeometry height="45" width="273" x="392" y="670" as="geometry" />
         </mxCell>
         <mxCell id="yyPlP2I08CKxvCgFY6op-210" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="4.Organização solicita utilizacao do banco" vertex="1">
           <mxGeometry height="750" width="500" x="1840" y="130" as="geometry" />
